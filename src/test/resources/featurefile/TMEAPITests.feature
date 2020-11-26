@@ -1,4 +1,4 @@
-Feature: UsedCars feature of the Trademe web page
+Feature: Validate the UsedCars feature through Trademe API
 
   Scenario: Check there is at least one listing in the TradeMe UsedCars category
     Given : valid API Credentials
