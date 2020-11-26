@@ -1,16 +1,16 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("featurefile/TMEAPITests.feature");
 formatter.feature({
   "line": 1,
-  "name": "UsedCars feature of the Trademe web page",
+  "name": "Validate the UsedCars feature through Trademe API",
   "description": "",
-  "id": "usedcars-feature-of-the-trademe-web-page",
+  "id": "validate-the-usedcars-feature-through-trademe-api",
   "keyword": "Feature"
 });
 formatter.scenario({
   "line": 3,
   "name": "Check there is at least one listing in the TradeMe UsedCars category",
   "description": "",
-  "id": "usedcars-feature-of-the-trademe-web-page;check-there-is-at-least-one-listing-in-the-trademe-usedcars-category",
+  "id": "validate-the-usedcars-feature-through-trademe-api;check-there-is-at-least-one-listing-in-the-trademe-usedcars-category",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -38,35 +38,35 @@ formatter.match({
   "location": "TMEAPITestStepDfn.valid_API_Credentials()"
 });
 formatter.result({
-  "duration": 736074400,
+  "duration": 839845399,
   "status": "passed"
 });
 formatter.match({
   "location": "TMEAPITestStepDfn.i_send_the_used_car_API_request()"
 });
 formatter.result({
-  "duration": 2085116500,
+  "duration": 2161440400,
   "status": "passed"
 });
 formatter.match({
   "location": "TMEAPITestStepDfn.i_should_get_valid_response_code_and_body()"
 });
 formatter.result({
-  "duration": 1139472700,
+  "duration": 1028039800,
   "status": "passed"
 });
 formatter.match({
   "location": "TMEAPITestStepDfn.validate_TotalCount_value_should_be_greater_than_zero()"
 });
 formatter.result({
-  "duration": 585775399,
+  "duration": 644881301,
   "status": "passed"
 });
 formatter.scenario({
   "line": 9,
   "name": "Check that the make Kia exists.",
   "description": "",
-  "id": "usedcars-feature-of-the-trademe-web-page;check-that-the-make-kia-exists.",
+  "id": "validate-the-usedcars-feature-through-trademe-api;check-that-the-make-kia-exists.",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -94,35 +94,35 @@ formatter.match({
   "location": "TMEAPITestStepDfn.valid_API_Credentials()"
 });
 formatter.result({
-  "duration": 267900,
+  "duration": 247599,
   "status": "passed"
 });
 formatter.match({
   "location": "TMEAPITestStepDfn.i_send_the_used_car_API_request()"
 });
 formatter.result({
-  "duration": 284992900,
+  "duration": 287447699,
   "status": "passed"
 });
 formatter.match({
   "location": "TMEAPITestStepDfn.i_should_get_valid_response_code_and_body()"
 });
 formatter.result({
-  "duration": 903328300,
+  "duration": 2959570301,
   "status": "passed"
 });
 formatter.match({
   "location": "TMEAPITestStepDfn.validate_Make_Kia_exist()"
 });
 formatter.result({
-  "duration": 323554100,
+  "duration": 348504200,
   "status": "passed"
 });
 formatter.scenario({
   "line": 15,
   "name": "Query any existing Used Car listing and confirm that the following details are shown for that car",
   "description": "",
-  "id": "usedcars-feature-of-the-trademe-web-page;query-any-existing-used-car-listing-and-confirm-that-the-following-details-are-shown-for-that-car",
+  "id": "validate-the-usedcars-feature-through-trademe-api;query-any-existing-used-car-listing-and-confirm-that-the-following-details-are-shown-for-that-car",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -224,28 +224,28 @@ formatter.match({
   "location": "TMEAPITestStepDfn.valid_API_Credentials()"
 });
 formatter.result({
-  "duration": 317400,
+  "duration": 319599,
   "status": "passed"
 });
 formatter.match({
   "location": "TMEAPITestStepDfn.i_send_the_used_car_API_request()"
 });
 formatter.result({
-  "duration": 470867099,
+  "duration": 275712800,
   "status": "passed"
 });
 formatter.match({
   "location": "TMEAPITestStepDfn.i_should_get_valid_response_code_and_body()"
 });
 formatter.result({
-  "duration": 896443300,
+  "duration": 909643900,
   "status": "passed"
 });
 formatter.match({
   "location": "TMEAPITestStepDfn.validate_the_following_details_are_shown_on_the_response(DataTable)"
 });
 formatter.result({
-  "duration": 480433799,
+  "duration": 497292600,
   "status": "passed"
 });
 });
