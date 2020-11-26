@@ -22,7 +22,7 @@ TSBApiTests/test-output/Suite/
 How to Build this project?
 
 - Install Eclipse/intelliJ or some java IDE
-- Import this Gradle project from Github --> https://github.com/rrajeshrajappan/TSBAPITests.git
+- Import this Gradle project from Github --> https://github.com/rrajeshrajappan/TSBAPITests.git 
 - Setup the workspace in your IDE
 - build the gradle project using build.gradle
 - Run the tests from testng.xml (RunAs -> TestNg Suite)
